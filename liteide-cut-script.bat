@@ -91,6 +91,7 @@ del /f /s /q dlv.exe
 del /f /s /q gocode.exe
 del /f /s /q gomodifytags.exe
 del /f /s /q gotools.exe
+del /f /s /q QtWebKit4.dll
 
 rem 删除部分插件
 cd %LITEIDE_LIB_DIR%\plugins
@@ -104,6 +105,7 @@ del /f /s /q golangpackage.dll
 del /f /s /q golangplay.dll
 del /f /s /q golangpresent.dll
 del /f /s /q welcome.dll
+del /f /s /q webkithtmlwidget.dll
 
 rem 删除部分配置文件
 cd %LITEIDE_SHARE_DIR%\liteapp\template
